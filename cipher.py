@@ -38,7 +38,7 @@ keyword = "KEY"
 # encrypted_message = caesar_cipher(message, shift, encrypting = True)
 # decrypted_message = caesar_cipher(encrypted_message, shift, encrypting = False)
 
-# VIGENERE CIPHER
+## VIGENERE CIPHER
 encrypted_message = vigenere_cipher(message, keyword, encrypting = True)
 decrypted_message = vigenere_cipher(encrypted_message, keyword, encrypting = False)
 
